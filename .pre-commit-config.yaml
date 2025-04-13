@@ -1,0 +1,28 @@
+repos:
+-   repo: https://github.com/psf/black
+    rev: 22.6.0
+    hooks:
+    - id: black
+     
+-   repo: https://github.com/pycqa/isort
+    rev: 5.10.1
+    hooks:
+    - id: isort
+
+#-   repo: https://github.com/econchick/interrogate
+#    rev: 1.4.0
+#    hooks:
+#    - id: interrogate
+
+-   repo: local
+    hooks:
+    - id: pytest-check
+      name: pytest-check
+      entry: pytest
+      language: system
+      pass_filenames: false
+      always_run: true
+      args: [
+        "unit_testing/"
+      ]
+   
