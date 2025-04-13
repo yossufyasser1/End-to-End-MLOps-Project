@@ -11,9 +11,6 @@ The dataset contains the credit-card related information of the customer.<br><br
 In this project, I implemented the MLOps framework to achieved the productivity and reliability model deployment process.<br>
 Such as experiment tracking, model registry, data version control, model deployment, testing framework and CI/CD deployment.
 
-### Project Architecture
-<img alt = "image" src = "https://github.com/hoe94/DTC_MLOPS_Project/blob/main/images/project_architecture.png">
-<img alt = "image" src = "https://github.com/hoe94/DTC_MLOPS_Project/blob/main/images/project_architecture-local.png">
 
 ### Tools & Technology
 * Cloud: Amazon Web Service (AWS)
